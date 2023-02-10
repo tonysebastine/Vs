@@ -74,10 +74,10 @@ width: 300px;
           <li><a class="nav-link scrollto active" href="https://support.printstudio.in"></a></li>
           <li><a class="nav-link scrollto" href="#">About</a></li>
           <li><a class="nav-link scrollto" href="https://support.printstudio.in">FTP Server</a></li>
-          <li><a class="nav-link   scrollto" href="https://printstudio.in">Engineer Number</a></li>
+          <li><a class="nav-link scrollto" href="https://printstudio.in">Engineer Number</a></li>
           <li><a class="nav-link scrollto" href="amc/services.html">Services</a></li>
-          <li <a class="dropdown"><a href="https://support.printstudio.in/amc/contact/vcard.html">Contact</i></a>
-           <li><a class="nav-link scrollto"  href="# ">AMC Asset List</li></a>
+          <li><a class="dropdown" href="https://support.printstudio.in/amc/contact/vcard.html">Contact</a></li>
+          <li><a class="nav-link scrollto"  href="# ">AMC Asset List</a></li>
 		   <li><a class="getstarted scrollto" href="amc/login.php">ENGINEER LOGIN</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
