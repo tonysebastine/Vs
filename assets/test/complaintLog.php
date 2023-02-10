@@ -1,0 +1,179 @@
+
+    <html>  
+    <head>
+
+    <title>Complaint Login </title> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+         <style>   
+body 
+{
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#fff;
+ }
+body
+{
+  background-image: url('images/logcomplaint.jpg');
+   background-repeat: no-repeat;
+  
+}
+div.c {
+  text-align: right;
+  color: #ffF;
+    font-size: 35px;
+    font-family: Arial;
+    padding-right: 240px;
+    float: right;
+    padding-top: 5px;
+    margin-top: 45px
+}
+.row{
+	position: relative;
+	
+}
+</style><script type="text/javascript" src="contact us_files/naveen_script.js"></script>
+	 
+<script type="text/javascript">
+function CheckData()
+	{		
+			var username = document.myform1.userName.value;
+			var prob= document.myform1.prob_desc.value;
+			var loc=document.myform1.Location.value;
+			var contact = document.myform1.ContactNum.value;
+			var cnt=0;
+			var emailid= document.myform1.mailid.value;
+		    var patt=/Murali/;
+			var res=false;
+			var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			
+			if(username=="")
+				{
+					alert("Enter User Name");
+					cnt++;
+				}
+				
+			if(prob=="")
+				{
+					alert("Enter problem Discription");
+					cnt++;
+				}
+				
+			if(loc=="")
+				{
+					alert("Enter Location");
+					cnt++;
+				}
+				if(contact=="")
+				{
+					alert("Enter Contact Number");
+					cnt++;
+				}
+				
+				if(emailid =="")
+				{
+					alert("Enter Email address");
+					cnt++;
+				}
+				else
+				{
+					
+					if(mailformat.test(emailid))
+					{
+						
+					}
+					else
+					{
+						alert("Enter valid Email address");
+						cnt++;
+					}
+					
+				}
+						
+			
+			if(cnt==0)
+			{		 
+			document.forms["myform1"].submit();
+			}
+			else
+			{
+			document.forms["myform1"].reset();
+			}
+		}
+	
+		
+	
+	</script>
+	<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+var x1 = new Date().toLocaleString( {timeZone: 'Asia/Kolkata'});
+// changing the display to UTC string
+document.getElementById('ct').innerHTML = x1;
+tt=display_c();
+
+ }
+</script>
+	
+    </head>  
+	 
+   <body oncontextmenu="return false;">
+	<div class="row" style="background-color:#167d8c; height:80px;"> 
+
+  
+	<center><font size="6" color="#fff" style="font-family:Footlight MT Light;margin-top:0px"><b>ELECTRONICS CORPORATION OF INDIA LIMITED<br>CORPORATE PURCHASE</font></center></b> 
+	
+   <center><font size="6" color="#fff" style="font-family:Footlight MT Light;"><b></font></center></b>
+   <br>
+	</br></div>
+<div class="row" style="background-color:#48aab6 ; height:40px;  padding-top:8px;width:100%"> 
+ <center><font size="5" color="#fff" style="font-family:Footlight MT Light;">COMPUTERS AND PRINTERS ANNUAL MAINTENANCE </font></center>
+ </br><br></div>
+		
+  <div class="row" align="right"style="background-color:#a9adb0; height:30px; padding-right:120px; ">
+     <b><font color=#FFF size=5<div class="c">
+					           <body onload=display_ct();>
+                                 <span id='ct' ></span></body>
+								 </font></li></div></b>
+	<marquee behavior="scroll" direction="right" onmouseover="this.stop();" onmouseout="this.start();" >
+    <img src="images/5.gif" width="550" height="150" alt="Natural" />
+  </marquee>
+  <br><br>
+  </body>
+ 
+<body oncontextmenu="return false;">
+	 <div class="img">
+   <form name=myform1 action="submitcomplaint.php" method="POST" >  
+
+
+<center>
+	 <br>
+	<table border=8 >
+	   <tr ><td colspan =2 bgcolor=#fff><center><h2>Complaint Log</center></h2></td> </tr>
+	    <tr><td bgcolor=#fff>Employee Name</td><td bgcolor=#fff><input type=text name=userName ></td></tr> 
+		<tr><td bgcolor=#fff>Problem_description</td><td bgcolor=#fff><TEXTAREA ROWs ='3' COLS='50' NAME='prob_desc'></textarea></td></tr> 
+		<tr><td bgcolor=#fff>Location</td><td bgcolor=#fff><input type=text name=Location ></td></tr> 
+		<tr><td bgcolor=#fff>ContactNumber</td><td bgcolor=#fff><input type=text name=ContactNum ></td></tr> 
+		<tr><td bgcolor=#fff>Mail ID</td><td bgcolor=#fff><input type=text name=mailid ></td></tr> 
+	
+    <tr ><td colspan =2 bgcolor=#fff><center><input type=button style="height:25px;width:90px;font-size:17px;" onclick =CheckData() value='Submit' ></center></td> </tr>
+	 <tr ><td colspan =2 bgcolor=#fff><center>
+    <a href="http://10.19.8.13/Index.php"><font color="black" size=4 >Previous page</a></font> </td> </tr></center>
+	</table>
+	</center>
+    </form>  
+	</div>
+	</div>
+    </body> <br><br> <br><br><br> <br><br></br> <br><br><br><br><br><br><br><br></br>
+	<div class="footer">
+<div class="row" style="background-color: #006fa7; height:50px;padding-left:35px; padding-top:5px"> 
+<font size="3" color="white" style="font-family:Sitka Small;">Designed and Developed by OMSYSTEM Team. <br>Suggestions any Further Details Contact Administrator:amcpc@ecil.co.in </b></font>
+    </div></div></div>
+	</html>

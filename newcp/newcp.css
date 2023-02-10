@@ -1,0 +1,282 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	background: #FFFFFF;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background-image:url(newcp/background.png);
+	background-repeat:repeat-x;
+	  /*overflow-y: hidden;  Hide vertical scrollbar 
+  overflow-x: hidden;  Hide horizontal scrollbar */
+}
+
+*
+{
+  margin: 0 0 ;
+ text-align:left;}
+ 
+#ecillogo
+{
+	
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 53px;
+    float: left;
+    padding-top: 2px;
+    margin-top: 2px
+	
+}
+	#ecil{
+		text-align: left;
+     color: #666e53;
+    font-size: 40px;
+   font-family:serif;
+       float: right;
+    padding-right: 700px;
+	    margin-top:20px
+   }
+#header
+{
+	float:right;
+background-image:url(newcp/tab.png);
+background-repeat:no-repeat;
+height:100px;
+width:427px;
+margin-right:0px;
+margin-top:21px;
+padding-top:17px;
+
+}
+
+
+#dasara
+{
+height:720px;
+width:480px;
+float:center;
+margin-left:5px;
+}
+#header h1
+{
+margin-left:68px;
+margin-top:6px;
+position: relative;
+float:left;
+color:#3D4130;
+text-align:center;
+font-size:34px;
+width:302px;
+line-height:normal;
+font-weight:bold;
+font-family:serif;
+}
+
+#header h2
+{
+position: relative;
+margin-left:70px;
+margin-top:9px;
+float:left;
+color:#ff7200;
+text-align:center;
+font-size:18px;
+line-height:normal;
+width:301px;
+font-weight:bold;
+font-family:serif;
+}
+
+
+
+#bottomContent
+{
+clear:both;
+position:relative;
+height:100%;
+margin-top:100px;
+margin-left:50px;
+width:1250px;
+
+}
+
+#bottomContent .navColumn
+{
+	margin-top:25px;
+margin-left:0px;
+width:419px;
+background-image:url(newcp/repeatBackNavAlpha.png);
+background-repeat:repeat-y;
+float:left;
+}
+
+#bottomContent .navColumn .overview
+{
+width:350px;
+padding:10px;
+background-color:#F9FAF5;
+border:dashed 2px;
+border-color:#EAECC7;
+margin-top:3px;
+margin-left:20px;
+}
+
+
+#bottomContent .navColumn .link
+{
+width:369px;
+height:65px;
+line-height:65px;
+font:Arial, Helvetica, sans-serif;
+font-size:20px;
+background-image:url(newcp/arrow_link_background.png);
+background-repeat:no-repeat;
+padding-left:50px;
+}
+
+#bottomContent .navColumn .link:hover
+{
+background-image:url(newcp/rollover_back65.png);
+background-repeat:no-repeat;
+}
+
+a
+{
+color:#777B2B;
+text-decoration:none;
+}
+
+a:hover
+{
+color:#CACE73;
+text-decoration:none;
+border-bottom:dotted 1px;
+}
+
+
+#bottomContent .contentColumn
+{
+float:left;
+margin-left:0px;
+width:800px;
+
+}
+
+
+.contentTop
+{
+width:800px;
+height:29px;
+background-repeat:no-repeat;
+background-image:url(newcp/contentBoxTop.png);
+}
+
+.contentBottom
+{
+width:800px;
+height:29px;
+background-repeat:no-repeat;
+background-image:url(newcp/contentBoxBottom.png);
+
+}
+
+
+.contentMain
+{
+width:800px;
+height:auto;
+background-repeat:no-repeat;
+background-image:url(newcp/contentBoxBack.png);
+background-repeat:repeat-y;
+padding-left:18px;
+padding-right:12px;
+}
+
+.contentMain h1
+{
+margin-left:21px;
+font-size:21px;
+line-height:normal;
+margin-bottom:10px;
+font-weight:bold;
+color:#071027;
+}
+
+
+.comments
+{
+font-size:11px;
+font-style:italic;
+padding:10px;
+margin-left:25px;
+}
+
+
+#bottomContent #navBottom{
+clear:both;
+width:419px;
+height:20px;
+background-image:url(newcp/tab_bottom.png);
+background-repeat:no-repeat;
+float:left;
+}
+
+.contentTitle
+{
+width:700px;
+height:44px;
+margin-top:20px;
+margin-left:25px;
+margin-right:25px;
+background-image:url(newcp/tab_back.png);
+background-repeat:no-repeat;
+}
+
+.contentTitle h1
+{
+margin-left:21px;
+padding-top:8px;
+font-size:17px;
+font-weight:bold;
+color:#071027;
+}
+
+
+.contentText
+{
+width:680px;
+padding-left:30px;
+padding-right:30px;
+font-size:13px;
+color:#030712;
+line-height:30px;
+}
+
+
+#footer {
+width: 750px;
+height:49px;
+background: url(newcp/footer.png) no-repeat;
+text-align:center;
+font-size:9px;
+color:#223F8D;
+padding-top:36px;
+}
+
+h4
+{
+color:#777B2B;
+font-size:9px;
+text-align:center;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
